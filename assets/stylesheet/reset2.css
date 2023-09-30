@@ -1,0 +1,56 @@
+*,
+::after,
+::before {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+li {
+        list-style-type: none;
+}
+
+a {
+        text-decoration: none;
+        color: inherit;
+}
+
+body {
+        width: 100%;
+        font-family: body2;
+
+}
+
+.row {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+p {
+        font-family: body3;
+}
+
+@font-face {
+        font-family: bottom;
+        src: url(../font2/MajorMonoDisplay-Regular.ttf);
+}
+
+@font-face {
+        font-family: body;
+        src: url(../font2/Philosopher-Regular.ttf);
+}
+
+@font-face {
+        font-family: khas;
+        src: url(../font2/Philosopher-Regular.ttf);
+}
+
+@font-face {
+        font-family: body2;
+        src: url(../font/OldStandardTT-Regular.ttf);
+}
+
+@font-face {
+        font-family: body3;
+        src: url(../font2/KiteOne-Regular.ttf);
+}
